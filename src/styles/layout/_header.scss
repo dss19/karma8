@@ -1,0 +1,17 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+
+    .navbar-brand {
+        max-width: 200px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+

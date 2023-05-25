@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.section {
+    padding: 100px 0;
+
+    &-ttl {
+        font-size: 40px;
+        margin-bottom: 60px;
+
+        &_white {
+            color: #fff;
+            margin-bottom: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+        padding: 60px 0;
+
+        &-ttl {
+            margin-bottom: 40px;
+
+            &_white {
+                margin-bottom: 16px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    .section {
+        padding: 60px 0;
+
+        &-ttl {
+            font-size: 30px;
+        }
+    }
+    
+}
